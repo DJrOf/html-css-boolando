@@ -1,0 +1,156 @@
+/* Generics */
+
+* {
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
+
+body {
+    font-family: sans-serif;
+}
+
+/* img {
+    width: 30%;
+} */
+
+/* Utilities*/
+
+.container {
+    max-width: auto;
+    margin: 0 auto;  
+    display: inline-block;
+    }
+
+.bg-red {
+    background-color: red;
+}
+    
+.bg-green {
+        background-color: green;
+}
+    
+.text-red {
+        color: red;   
+}
+
+/* Products (cards) */
+
+.card {
+    
+    display: inline-block;
+    width: calc((100% / 3) - 4px);
+    padding: 10px;
+    cursor: pointer;
+    margin: 30px 0;
+}
+
+.card-image {
+    position: relative;
+    height: 900px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
+#levis-fit-tee {
+    background-image: url(img/1.webp);
+    }
+
+#levis-fit-tee:hover {
+    background-image: url(img/1b.webp);
+    } 
+
+#guess-roses {
+    background-image: url(img/2.webp);
+    }
+
+#guess-roses:hover {
+    background-image: url(img/2b.webp);
+    } 
+
+#pastello {
+    background-image: url(img/3.webp);
+    }
+
+#pastello:hover {
+    background-image: url(img/3b.webp);
+    } 
+
+#tee {
+    background-image: url(img/4.webp);
+    }
+
+#tee:hover {
+    background-image: url(img/4b.webp);
+    } 
+
+#stripe {
+    background-image: url(img/5.webp);
+    }
+
+#stripe:hover {
+    background-image: url(img/5b.webp);
+    } 
+
+#maglione {
+    background-image: url(img/6.webp);
+    }
+
+#maglione:hover {
+    background-image: url(img/6b.webp);
+    } 
+
+
+/* .card-image .secondary-image {
+    display: none;
+}
+
+.card-image:hover .main-image {
+    display: none;
+}
+
+.card-image:hover .secondary-image {
+    display: inline-block;
+}  */
+
+.card-image .favourite {
+position: absolute;
+top: 10px;
+right: 0;
+width: 50px;
+height: 50px;
+display: inline-block;
+background-color: white;
+font-size: 1.8em;
+text-align: center;
+line-height: 50px;
+}
+
+.card-image .favourite:hover {
+    color: red;
+}
+
+/* Badges */
+
+.card-badges {
+    
+    position: absolute;
+    width: 100%;
+    bottom: 5%;
+    color: white;
+}
+
+.card-badges .badge {
+    
+    color: white;
+    font-weight: bold;
+    padding: 5px 10px;
+}
+
+    
+
+
+    
+    
+    
